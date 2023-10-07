@@ -2,183 +2,183 @@
     max-width: 1600px;
     margin: 0 auto; 
   }
-  /* Center the text within the navigation links */
+  
 nav a {
     text-align: center;
   }
   
-  /* Center the text within the hero message */
+  
   #hero-msg h1,
   #hero-msg h4 {
     text-align: center;
   }
   
-  /* Center the content within the button box */
+  
   .button-box {
     text-align: center;
   }
   
-  /* Center the content within main section elements */
+  
   main section {
     text-align: center;
   }
   #background {
     height: 725px;
 }
-/* Set background color for the body */
+
 body {
-    background-color: #F3F3EC; /* Light cream color */
+    background-color: #F3F3EC; /
 }
 
-/* Set background color for the header */
+
 header {
-    background-color: rgba(38, 70, 83, 0.7); /* Semi-transparent dark teal */
+    background-color: rgba(38, 70, 83, 0.7); 
 }
 
-/* Set background color for nav links on hover */
+
 nav a:hover {
-    background-color: #2A9D8F; /* Teal green on hover */
+    background-color: #2A9D8F; 
 }
 
-/* Set background color for .book and .join buttons */
+
 .book,
 .join {
-    background-color: #E9C46A; /* Mustard yellow for buttons */
+    background-color: #E9C46A; 
 }
 
-/* Set background color for .book and .join buttons on hover */
+
 .book:hover,
 .join:hover {
-    background-color: #F4A261; /* Slightly darker yellow on hover */
+    background-color: #F4A261; 
 }
 
-/* Set background color for #background */
+
 #background {
-    background-color: #264653; /* Dark teal background */
+    background-color: #264653; 
 }
 
-/* Set background color for .msg */
+
 .msg {
-    background-color: #F3F3EC; /* Light cream color */
+    background-color: #F3F3EC; 
 }
 
-/* Set background color for footer */
+
 footer {
-    background-color: rgba(38, 70, 83, 0.7); /* Semi-transparent dark teal for footer */
+    background-color: rgba(38, 70, 83, 0.7); 
 }
-/* Set font color for nav links */
+
 nav a {
-    color: #264653; /* Dark teal for nav links */
+    color: #264653; 
 }
 
-/* Set font color for nav links on hover */
+
 nav a:hover {
-    background-color: #264653; /* Dark teal background on hover */
-    color: #d9c2a3; /* Light beige font color on hover */
+    background-color: #264653; 
+    color: #d9c2a3; 
 }
 
-/* Set font color for home title */
+
 .home-title {
-    color: #264653; /* Dark teal for home title */
+    color: #264653; 
 }
 
-/* Set font color for h4 elements */
+
 h4 {
-    color: #2A9D8F; /* Teal green for h4 elements */
+    color: #2A9D8F; 
 }
 
-/* Set font color for .book and .join buttons */
+
 .book,
 .join {
-    background-color: #E9C46A; /* Mustard yellow for buttons */
-    color: #264653; /* Dark teal font color for buttons */
+    background-color: #E9C46A; 
+    color: #264653; 
 }
 
-/* Set font color for .book and .join buttons on hover */
+
 .book:hover,
 .join:hover {
-    background-color: #F4A261; /* Slightly darker yellow on hover */
-    color: #264653; /* Dark teal font color on hover */
+    background-color: #F4A261; 
+    color: #264653; 
 }
 
-/* Set font color for message heading */
+
 .msg h2 {
-    color: #264653; /* Dark teal for message heading */
+    color: #264653; 
 }
 
-/* Set font color for message paragraph */
+
 .msg p {
-    color: #2A9D8F; /* Teal green for message paragraph */
+    color: #2A9D8F; 
 }
 
-/* Set font color for footer text */
+
 footer {
-    background-color: rgba(38, 70, 83, 0.7); /* Semi-transparent dark teal for footer */
-    color: #F3F3EC; /* Light cream font color for footer text */
+    background-color: rgba(38, 70, 83, 0.7); 
+    color: #F3F3EC; 
 }
 
-/* Set font color for footer links */
+
 footer a {
-    color: #F3F3EC; /* Light cream font color for footer links */
+    color: #F3F3EC; 
 }
 
-/* Set font color for footer links on hover */
+
 footer a:hover {
-    color: #264653; /* Dark teal font color for footer links on hover */
+    color: #264653; 
 }
-/* Set width for the logo */
+
 .logo {
-    width: 80px; /* Width of 80px for the logo */
+    width: 80px; 
 }
 
-/* Set width for card icons */
+
 .icon {
-    width: 80px; /* Width of 80px for all card icons */
+    width: 80px; 
 }
 
-/* Set responsive width for the hero image */
+
 #hero-img {
-    width: 100%; /* Width of 100% for the hero image */
+    width: 100%; 
 }
-/* Remove underlines from navigation links */
+
 nav a {
     text-align: center;
     color: #fcfbfb;
-    text-decoration: none; /* Remove underline for normal state */
+    text-decoration: none; 
 }
 
-/* Add underline on hover for navigation links */
+
 nav a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; 
 }
 
-/* Remove underlines from .book and .join links */
+
 .book,
 .join {
-    text-decoration: none; /* Remove underline for normal state */
+    text-decoration: none; 
 }
 
-/* Add underline on hover for .book and .join links */
+
 .book:hover,
 .join:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; 
 }
 
-/* Remove underlines from footer links */
+
 footer a {
-    text-decoration: none; /* Remove underline for normal state */
+    text-decoration: none; 
 }
 
-/* Add underline on hover for footer links */
+
 footer a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; 
 }
-/* Increase font size for footer text */
+
 footer p {
     font-size: 1.2em;
 }
 
-/* Add underline on hover for links within footer paragraphs */
+
 footer p a:hover {
     text-decoration: underline;
 }
