@@ -234,9 +234,10 @@ footer a:hover {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+
 .msg {
-    grid-column: 1 / span 5; /* Corrected grid placement */
-    grid-row: 8 / span 1; /* Corrected grid placement */
+    grid-column: 1 / span 5; 
+    grid-row: 8 / span 1; 
 }
 
 @media screen and (max-width: 900px) {
