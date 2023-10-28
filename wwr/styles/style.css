@@ -145,10 +145,13 @@ footer a:hover {
     width: 80px;
 }
 
-hero-img {
+#hero-img {
     width: 100%;
-    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
+
 
 nav {
     display: flex;

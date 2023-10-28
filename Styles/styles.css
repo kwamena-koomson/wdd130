@@ -193,7 +193,6 @@ footer a:hover {
     z-index: -1;
 }
 
-
 #hero-msg {
     grid-column: 2 / span 2;
     grid-row: 1 / span 2;
