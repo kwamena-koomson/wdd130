@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting Adventures | Thrills with Koomson White Water Rafting Company | Home</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="faqbody">
+    <div id="faqcontent">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/raftt.jpg" alt="Koomson logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="fiq.html">FAQ</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+    </div>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/unique2.jpg" alt="People having fun">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Have An Adventure</h1>
+            <h4>Make Memories with Koomson White Water Rafting Company</h4>
+            <div class="button-box">
+                <a class="book" href="contactus.html">Book Now</a>
+            </div>
+        </section>
+    </div>
+    <main>
+
+    <div id = "faqcontainer">
+        <form onsubmit="return false;" id="searchform">
+            <input type ="text" id="search" name="search" placeholder="Type to search here..." onkeydown="if(event.key === 'Enter') search()">
+        </form>
+
+        <div id = "searchResults"></div>
+        
+        <!--Javascript code for search-->
+        <script>
+            function search(){
+                var searchTerm = document.getElementById('search').value;
+                var resultscontainer = document.getElementById('searchResults');
+
+                resultscontainer.innerHTML = '<p> Search results for: '+ searchTerm + '<p>';
+                }
+    
+        </script>
+
+        <h1>Frequently Asked Questions?</h1>
+        <div class = "faqtab">
+            <input type="radio" name="acc" id="acc1">
+            <label for="acc1">
+                <h2>01</h2>
+                <h3>What is white water rafting & is it safe?                </h3>
+            </label>
+            <div class="faqcontent"><p>White water rafting is an adventurous 
+                water activity involving navigating rivers in inflatable 
+                rafts through various levels of rough water, known as rapids.
+                Yes, with proper safety measures, experienced guides, and 
+                appropriate equipment, white water rafting can be a thrilling 
+                yet safe adventure.</p></div>
+        </div>
+        <div class = "faqtab">
+            <input type="radio" name="acc" id="acc2">
+            <label for="acc2">
+                <h2>02</h2>
+                <h3>Are there age restrictions for rafting trips & what should one wear?</h3>
+            </label>
+            <div class="faqcontent"><p>Generally, we recommend children aged 8 and above to 
+                fully enjoy the experience, but it ultimately depends on the specific trip. 
+                Contact us for age-related queries. Dress comfortably and be prepared to 
+                get wet. Wear swimwear or synthetic clothing that dries quickly. Sunscreen, 
+                water shoes, and a hat are recommended.
+            </p></div>
+        </div>
+        <div class = "faqtab">
+            <input type="radio" name="acc" id="acc3">
+            <label for="acc3">
+                <h2>03</h2>
+                <h3>Do I need prior experience to go rafting & are there difficulty levels?</h3>
+            </label>
+            <div class="faqcontent"><p>No prior experience is required for most trips. 
+                Our experienced guides will provide safety instructions and training 
+                before the trip. Yes, we offer trips for all skill levels. You can 
+                choose from mild, moderate, or challenging rapids, depending on your 
+                experience and comfort level.
+            </p></div>
+        </div>
+        <div class = "faqtab">
+            <input type="radio" name="acc" id="acc4">
+            <label for="acc4">
+                <h2>04</h2>
+                <h3>Can I bring a camera or phone on the raft or any valuables?</h3>
+            </label>
+            <div class="faqcontent"><p>We highly recommend waterproof cameras or phone 
+                cases. However, our guides can take photos of your trip, available 
+                for purchase. It's advisable not to bring valuable items on the trip 
+                to prevent potential loss or damage due to water exposure.
+            </p></div>
+    </div>
+    </main>
+    <footer>
+        <p>Koomson White Water Rafting Company &copy; 2023 - Kwamena Koomson</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
