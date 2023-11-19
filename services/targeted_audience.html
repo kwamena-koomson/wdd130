@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="target.css">
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Koomson logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="targeted_audience.html">Targeted Audience</a>
+            <a href="products_and_services.html">Projects and Services</a>
+        </nav>
+        <div class="search-container">
+            <form action="/search" method="GET">
+                <input type="text" placeholder="Search..." name="q">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        
+        <div class="business-images">
+            <img class="bus1" src="images/business1.jpg" alt="fire icon" width="350">
+            <img class="bus2" src="images/business2.jpg" alt="fire icon" width="350">
+            <img class="bus3" src="images/business3.jpg" alt="fire icon" width="350">
+        </div>
+
+        <div class="contact-form">
+            <form action="/submit" method="POST">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Siteforgesolutions &copy; 2023 - Kwamena Koomson</p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
